@@ -28,7 +28,7 @@ DATABASES = {
         'ATOMIC_REQUESTS': True,
         }
     },
-    'gis': {
+'gis': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'phis',
         'USER': 'staff',

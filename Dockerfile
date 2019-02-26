@@ -60,4 +60,13 @@ RUN echo 'source /etc/profile' >> /root/.bashrc
 
 WORKDIR "${KOBOCAT_SRC_DIR}"
 
+RUN python manage.py makemessages -l es -e py,html,email,txt
+RUN for app in {main,viewer} ; do cd onadata/apps/${app} && django-admin.py makemessages -d djangojs -l es && cd - ; done
+
+RUN python manage.py makemessages -a
+RUN for app in {main,viewer} ; do cd onadata/apps/${app} && django-admin.py makemessages -d djangojs -a && cd - ; done
+
+RUN python manage.py compilemessages ;
+RUN for app in {main,viewer} ; do cd onadata/apps/${app} && django-admin.py compilemessages && cd - ; done
+
 EXPOSE 8000
