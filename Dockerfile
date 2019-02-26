@@ -62,14 +62,14 @@ WORKDIR "${KOBOCAT_SRC_DIR}"
 
 RUN python manage.py makemessages -l es -e py,html,email,txt
 #RUN for app in {main,viewer} ; do cd onadata/apps/${app} && python manage.py makemessages -d djangojs -l es && cd - ; done
-RUN cd onadata/apps/main && python django-admin.py makemessages -d djangojs -l es
+RUN cd onadata/apps/main && python django-admin makemessages -d djangojs -l es
 
 RUN python manage.py makemessages -a
 #RUN for app in {main,viewer} ; do cd onadata/apps/${app} && python manage.py makemessages -d djangojs -a && cd - ; done
-RUN cd onadata/apps/main && python django-admin.py makemessages -d djangojs -a
+RUN cd onadata/apps/main && python django-admin makemessages -d djangojs -a
 
 RUN python manage.py compilemessages ;
 #RUN for app in {main,viewer} ; do cd onadata/apps/${app} && python manage.py compilemessages && cd - ; done
-RUN cd onadata/apps/main && python django-admin.py compilemessages
+RUN cd onadata/apps/main && python django-admin compilemessages
 
 EXPOSE 8000
