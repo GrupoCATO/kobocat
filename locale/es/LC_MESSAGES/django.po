@@ -1,24 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016
-# Hotellook, 2014
+# Translators:
+# Kike Ramirez <kike.ramirez@techo.org>, 2018
+# Pedro BAre <pedro.bare@kobotoolbox.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: koboform\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-04 17:26+0000\n"
-"PO-Revision-Date: 2017-03-27 19:56+0000\n"
-"Last-Translator: Penar Musaraj <pmusaraj@gmail.com>\n"
-"Language-Team: English (http://www.transifex.com/kobotoolbox/koboform/"
-"language/en/)\n"
-"Language: en\n"
+"PO-Revision-Date: 2018-05-04 17:32+0000\n"
+"Last-Translator: Pedro BAre <pedro.bare@kobotoolbox.org>\n"
+"Language-Team: Spanish (http://www.transifex.com/kobotoolbox/koboform/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: kobo/apps/reports/report_data.py:150
@@ -31,103 +31,103 @@ msgstr ""
 
 #: kobo/static_lists.py:7
 msgid "Public Administration"
-msgstr "Public Administration"
+msgstr "Administración Pública"
 
 #: kobo/static_lists.py:8
 msgid "Arts, Entertainment, and Recreation"
-msgstr "Arts, Entertainment, and Recreation"
+msgstr "Artes, Entretenimiento, y Recreación"
 
 #: kobo/static_lists.py:9
 msgid "Educational Services / Higher Education"
-msgstr "Educational Services / Higher Education"
+msgstr "Servicios Educativos / Educación Superior"
 
 #: kobo/static_lists.py:10
 msgid "Health Services / Public Health"
-msgstr "Health Services / Public Health"
+msgstr "Servicios de Salud / Salud Pública"
 
 #: kobo/static_lists.py:11
 msgid "Finance and Insurance"
-msgstr "Finance and Insurance"
+msgstr "Finanzas y Seguros"
 
 #: kobo/static_lists.py:12
 msgid "Information / Media"
-msgstr "Information / Media"
+msgstr "Información / Medios"
 
 #: kobo/static_lists.py:13
 msgid "Economic/Social Development"
-msgstr "Economic/Social Development"
+msgstr "Desarrollo Económico/Social"
 
 #: kobo/static_lists.py:14
 msgid "Security / Police / Peacekeeping"
-msgstr "Security / Police / Peacekeeping"
+msgstr "Seguridad / Policía / Mantenimiento de Paz"
 
 #: kobo/static_lists.py:15
 msgid "Disarmament & Demobilization"
-msgstr "Disarmament & Demobilization"
+msgstr "Desarme y Desmobilización"
 
 #: kobo/static_lists.py:16
 msgid "Environment"
-msgstr "Environment"
+msgstr "Medio ambiente"
 
 #: kobo/static_lists.py:17
 msgid "Private sector"
-msgstr "Private sector"
+msgstr "Sector privado"
 
 #: kobo/static_lists.py:18
 msgid "Humanitarian - Coordination / Information Management"
-msgstr "Humanitarian - Coordination / Information Management"
+msgstr "Ayuda Humanitaria - Coordinación / Gestión de la Información"
 
 #: kobo/static_lists.py:19
 msgid "Humanitarian - Multiple Clusters"
-msgstr "Humanitarian - Multiple Clusters"
+msgstr "Ayuda Humanitaria - Temáticas Múltiples"
 
 #: kobo/static_lists.py:20
 msgid "Humanitarian - Camp Management & Coordination"
-msgstr "Humanitarian - Camp Management & Coordination"
+msgstr "Ayuda Humanitaria - Gestión y Coordinación de campamentos"
 
 #: kobo/static_lists.py:21
 msgid "Humanitarian - Early Recovery"
-msgstr "Humanitarian - Early Recovery"
+msgstr "Ayuda Humanitaria - Recuperación Temprana"
 
 #: kobo/static_lists.py:22
 msgid "Humanitarian - Education"
-msgstr "Humanitarian - Education"
+msgstr "Ayuda Humanitaria - Educación"
 
 #: kobo/static_lists.py:23
 msgid "Humanitarian - Emergency Shelter"
-msgstr "Humanitarian - Emergency Shelter"
+msgstr "Ayuda Humanitaria - Refugio de Emergencia"
 
 #: kobo/static_lists.py:24
 msgid "Humanitarian - Emergency Telecoms"
-msgstr "Humanitarian - Emergency Telecoms"
+msgstr "Ayuda Humanitaria - Telecomunicaciones de Emergencia"
 
 #: kobo/static_lists.py:25
 msgid "Humanitarian - Food Security"
-msgstr "Humanitarian - Food Security"
+msgstr "Ayuda Humanitaria - Seguridad Alimentaria"
 
 #: kobo/static_lists.py:26
 msgid "Humanitarian - Health"
-msgstr "Humanitarian - Health"
+msgstr "Ayuda Humanitaria - Salud"
 
 #: kobo/static_lists.py:27
 msgid "Humanitarian - Logistics"
-msgstr "Humanitarian - Logistics"
+msgstr "Ayuda Humanitaria - Logística"
 
 #: kobo/static_lists.py:28
 msgid "Humanitarian - Nutrition"
-msgstr "Humanitarian - Nutrition"
+msgstr "Ayuda Humanitaria - Nutrición"
 
 #: kobo/static_lists.py:29
 msgid "Humanitarian - Protection"
-msgstr "Humanitarian - Protection"
+msgstr "Ayuda Humanitaria - Protección"
 
 #: kobo/static_lists.py:30
 msgid "Humanitarian - Sanitation, Water & Hygiene"
-msgstr "Humanitarian - Sanitation, Water & Hygiene"
+msgstr "Ayuda Humanitaria -  Saneamiento, Agua e Higiene"
 
 #: kobo/static_lists.py:31 kpi/forms.py:40
 msgid "Other"
-msgstr "Other"
+msgstr "Otro"
 
 #: kobo/static_lists.py:53
 msgid "Afghanistan"
@@ -978,10 +978,9 @@ msgid "Sudan"
 msgstr ""
 
 #: kobo/static_lists.py:265
-#, fuzzy
 #| msgid "Username"
 msgid "Suriname"
-msgstr "Username"
+msgstr ""
 
 #: kobo/static_lists.py:266
 msgid "Svalbard and Jan Mayen"
@@ -1133,7 +1132,7 @@ msgstr ""
 
 #: kpi/deployment_backends/kc_access/shadow_models.py:132
 msgid "Require authentication to see forms and submit data"
-msgstr ""
+msgstr "Requerir autenticación para ver formularios y enviar datos"
 
 #: kpi/deployment_backends/kobocat_backend.py:467
 msgid "The specified asset has not been deployed"
@@ -1148,11 +1147,11 @@ msgstr ""
 
 #: kpi/forms.py:22
 msgid "Username"
-msgstr "Username"
+msgstr "Nombre de usuario"
 
 #: kpi/forms.py:26
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #: kpi/forms.py:30
 msgid "Organization name"
@@ -1160,23 +1159,23 @@ msgstr ""
 
 #: kpi/forms.py:34
 msgid "Gender"
-msgstr ""
+msgstr "Género"
 
 #: kpi/forms.py:38
 msgid "Male"
-msgstr ""
+msgstr "Masculino"
 
 #: kpi/forms.py:39
 msgid "Female"
-msgstr ""
+msgstr "Femenino"
 
 #: kpi/forms.py:44
 msgid "Sector"
-msgstr ""
+msgstr "Sector"
 
 #: kpi/forms.py:50
 msgid "Country"
-msgstr ""
+msgstr "País"
 
 #: kpi/models/asset.py:456
 msgid "Can view asset"
@@ -1212,7 +1211,7 @@ msgstr ""
 
 #: kpi/models/authorized_application.py:50
 msgid "Invalid token."
-msgstr "Invalid token."
+msgstr "Token inválido."
 
 #: kpi/templates/base.html:38
 msgid "Terms and Conditions"
@@ -1224,7 +1223,7 @@ msgstr ""
 
 #: kpi/templates/base.html:41
 msgid "Photo"
-msgstr ""
+msgstr "Foto"
 
 #: kpi/templates/base.html:41
 msgid "by"
@@ -1250,7 +1249,7 @@ msgstr ""
 #: kpi/templates/registration/login.html:17
 #: kpi/templates/registration/registration_form.html:44
 msgid "or"
-msgstr ""
+msgstr "o"
 
 #: kpi/templates/registration/login.html:17
 msgid "create an account"
@@ -1282,7 +1281,7 @@ msgstr ""
 
 #: kpi/templates/registration/password_reset_form.html:13
 msgid "Reset Password"
-msgstr ""
+msgstr "Restablecer contraseña"
 
 #: kpi/templates/registration/registration_complete.html:8
 msgid "Account created!"
@@ -1302,7 +1301,7 @@ msgstr ""
 
 #: kpi/templates/registration/registration_form.html:44
 msgid "login"
-msgstr ""
+msgstr "conectar"
 
 #: kpi/views.py:418
 msgid "No key provided"
