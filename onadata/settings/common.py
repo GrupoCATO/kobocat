@@ -21,6 +21,8 @@ from django.utils.log import AdminEmailHandler
 import djcelery
 from pymongo import MongoClient
 
+from django.utils.translation import get_language_info
+
 
 djcelery.setup_loader()
 
